@@ -1,13 +1,9 @@
-﻿{
-    "jiraLink":  "",
-    "attachmentPath":  "",
-    "resumed":  false,
-    "startFromStage":  "",
-    "completedStages":  [
-
-                        ],
-    "nextStage":  "Requirement Analysis Agent",
-    "history":  [
-
-                ]
+{
+  "jiraLink": "https://jiraeu.epam.com/browse/EPMCDMETST-59827",
+  "attachmentPath": "",
+  "resumed": false,
+  "startFromStage": "",
+  "completedStages": [],
+  "nextStage": "Requirement Analysis Agent",
+  "history": []
 }
