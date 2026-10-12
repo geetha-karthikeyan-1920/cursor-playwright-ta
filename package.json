@@ -1,15 +1,25 @@
 {
   "name": "cursor-playwright-ta",
   "version": "1.0.0",
-  "description": "Cursor Agent",
-  "main": "index.js",
-  "scripts": {},
+  "description": "Playwright test automation with documentation sync and an agentic SDLC workflow",
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/documentationSync.test.js",
+    "test:e2e": "playwright test",
+    "agentic:jira": "node ./scripts/run-agentic-sdlc.js jira-mcp",
+    "agentic:sdlc": "node ./scripts/run-agentic-sdlc.js",
+    "bootstrap:story": "node ./scripts/bootstrap-story.js",
+    "orchestration:run": "powershell -NoProfile -ExecutionPolicy Bypass -File ./orchestration/run-agentic-pipeline.ps1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/geetha-karthikeyan-1920/cursor-playwright-ta.git"
   },
-  "keywords": [],
-  "type": "commonjs",
+  "keywords": [
+    "playwright",
+    "test-automation",
+    "agentic-sdlc"
+  ],
   "bugs": {
     "url": "https://github.com/geetha-karthikeyan-1920/cursor-playwright-ta/issues"
   },
