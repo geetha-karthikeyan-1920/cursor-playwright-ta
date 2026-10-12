@@ -1,0 +1,21 @@
+{
+  "name": "cursor-playwright-ta",
+  "version": "1.0.0",
+  "description": "Cursor Agent",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geetha-karthikeyan-1920/cursor-playwright-ta.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/geetha-karthikeyan-1920/cursor-playwright-ta/issues"
+  },
+  "homepage": "https://github.com/geetha-karthikeyan-1920/cursor-playwright-ta#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.64.0",
+    "@types/node": "^26.6.5"
+  }
+}
